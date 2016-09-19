@@ -2,8 +2,7 @@ from flask import Flask
 from flask.ext.bootstrap import Bootstrap
 from flask.ext.mail import Mail
 from flask.ext.moment import Moment
-#from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.sqlalchemy import create_engine
+from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.login import LoginManager
 from config import config
 from flask.ext.pagedown import PageDown
@@ -11,8 +10,7 @@ from flask.ext.pagedown import PageDown
 bootstrap = Bootstrap()
 mail = Mail()
 moment = Moment()
-#db = SQLAlchemy()
-db = create_engine()
+db = SQLAlchemy()
 pagedown = PageDown()
 
 login_manager = LoginManager()
