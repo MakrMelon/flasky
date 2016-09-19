@@ -3,7 +3,7 @@ from flask.ext.bootstrap import Bootstrap
 from flask.ext.mail import Mail
 from flask.ext.moment import Moment
 #from flask.ext.sqlalchemy import SQLAlchemy
-from flaks.ext.sqlalchemy import create_engine
+from flask.ext.sqlalchemy import create_engine
 from flask.ext.login import LoginManager
 from config import config
 from flask.ext.pagedown import PageDown
